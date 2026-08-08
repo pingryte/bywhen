@@ -1,0 +1,12 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "4000:4000"
+    environment:
+      DATABASE_PATH: /data/bywhen.db
+    volumes:
+      - goal-data:/data
+      - ./migrations:/app/migrations:ro
+volumes:
+  goal-data:

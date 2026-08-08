@@ -1,0 +1,10 @@
+{
+  "name": "ByWhen",
+  "short_name": "ByWhen",
+  "description": "ByWhen is a private, local-first goal calculator.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ec",
+  "theme_color": "#183c32",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

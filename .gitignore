@@ -1,0 +1,9 @@
+/node_modules/
+/frontend/dist/
+/frontend/elm-stuff/
+/engine/target/
+/api/build/
+/api/how_long_until.db*
+/api/bywhen.db*
+/wasm/pkg/
+.DS_Store
