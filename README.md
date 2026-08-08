@@ -44,6 +44,10 @@ Run `docker compose up --build api` instead of `make api` to use the container. 
 
 Run `make api` alongside `make dev` to enable share links. The browser defaults to `http://127.0.0.1:4000`; set `VITE_API_URL` for another free/self-hosted API location. If it is unavailable, calculations and local goals continue to work.
 
+## Netlify
+
+The checked-in `netlify.toml` installs `wasm-pack`, builds the Rust/WASM and Elm application, and publishes `frontend/dist`. Netlify should use the repository configuration rather than a UI override. If the site has an existing UI build command or publish directory, clear those values so `netlify.toml` remains authoritative.
+
 ## Project structure
 
 ```text
