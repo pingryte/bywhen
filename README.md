@@ -46,7 +46,7 @@ Run `make api` alongside `make dev` to enable share links. The browser defaults 
 
 ## Netlify
 
-The checked-in `netlify.toml` installs `wasm-pack`, builds the Rust/WASM and Elm application, and publishes `frontend/dist`. Netlify should use the repository configuration rather than a UI override. If the site has an existing UI build command or publish directory, clear those values so `netlify.toml` remains authoritative.
+The checked-in `netlify.toml` initializes the stable Rust toolchain, installs `wasm-pack`, builds the Rust/WASM and Elm application, and publishes `frontend/dist`. Netlify should use the repository configuration rather than a UI override. If the site has an existing UI build command or publish directory, clear those values so `netlify.toml` remains authoritative.
 
 ## Project structure
 
